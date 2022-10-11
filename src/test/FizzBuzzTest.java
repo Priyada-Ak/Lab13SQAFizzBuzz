@@ -39,4 +39,11 @@ class FizzBuzzTest {
 		assertEquals("1", number);
 	}
 	
+	@DisplayName("Test : Error < 1")
+	@Test
+	void testError1() {
+		String number = FizzBuzz.checkerNumber(0);
+		assertEquals("The number must be between 0-100!", number);
+	}
+	
 }
