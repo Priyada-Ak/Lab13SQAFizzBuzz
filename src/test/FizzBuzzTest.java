@@ -32,4 +32,11 @@ class FizzBuzzTest {
 		assertEquals("FizzBuzz", number);
 	}
 	
+	@DisplayName("Test : Not in condition")
+	@Test
+	void testNotInCondition() {
+		String number = FizzBuzz.checkerNumber(1);
+		assertEquals("1", number);
+	}
+	
 }
