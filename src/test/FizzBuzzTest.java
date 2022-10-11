@@ -49,7 +49,7 @@ class FizzBuzzTest {
 	@DisplayName("Test : Error > 100")
 	@Test
 	void testError2() {
-		String number = FizzBuzz.checkerNumber(101);
+		String number = FizzBuzz.checkerNumber(102);
 		assertEquals("The number must be between 0-100!", number);
 	}
 	
